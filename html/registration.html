@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/registration.css">
+</head>
+<body>
+    <div class="form" id="form">
+        <div class="title" id="title">
+            <h1>Registration</h1>
+        </div>
+        <div class="theme">
+            <button class="theme-change" onclick="changeTheme()"><i class="fa-solid fa-moon"></i></button>
+        </div>
+        <div class="inputs">
+            <div class="input-group">
+                <i class="fa-solid fa-n"></i>
+                <input type="text" id="login" class="login" placeholder="login">
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" class="email" placeholder="email">
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="password" class="password" placeholder="password">
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" id="confirm-password" class="confirm-password" placeholder="confirm password">
+            </div>
+        </div>
+        <div class="reg-button">
+            <button class="register" id="reg">register</button>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>
